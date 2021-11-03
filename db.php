@@ -5,7 +5,7 @@ class Dbcon{
     private $db_host = 'localhost';
     private $db_user = 'root';
     private $db_password = '';
-    private $db_name = 'lawrenceonah';
+    private $db_name = 'database name';
 
     public function __construct(){
         $this->connectToDb();
